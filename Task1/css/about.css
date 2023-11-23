@@ -1,0 +1,11 @@
+.abt-body {
+    background-color:aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img{
+    margin: 2rem 20rem;
+    height: 20%;
+    width: 20%;
+}
