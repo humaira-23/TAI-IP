@@ -1,11 +1,37 @@
 .abt-body {
-    background-color:aliceblue;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to right, rgba(33, 61, 65,0.345), rgba(33, 61, 65, 1));
+}
+
+.body-content{
+    display: flex;
 }
 
 .img{
-    margin: 2rem 20rem;
-    height: 20%;
-    width: 20%;
+    margin: 2rem 0;
+    height: 27rem;
+    width: 27rem;
+    margin-left: 5rem;
+}
+
+.details{
+    margin: 4rem;
+    margin-top: 3rem;
+}
+/* 
+p{
+    color: white;
+    margin:0 1rem 1rem 1rem;
+} */
+
+.title-name{
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+    margin:0 1rem 1rem 1rem;
+}
+
+.description{
+    color: white;
+    margin:0 1rem 1rem 1rem;
 }

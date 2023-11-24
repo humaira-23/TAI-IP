@@ -41,7 +41,7 @@ footer {
 .navbar-list{
     list-style: none;
     display: flex;
-    margin-left: 20rem;
+    margin-left: 19rem;
 }
 
 li a{
@@ -55,6 +55,22 @@ li a{
 }
 
 a:hover{
+    text-decoration: underline;
+}
+.navbar-list a:target{
+    text-decoration: underline;
+}
+
+.navbar-list a:visited{
+    text-decoration: underline;
+}
+
+.navbar-list a:focus{
+    text-decoration: underline;
+}
+
+
+.navbar-list a:active, .navbar-list a.active{
     text-decoration: underline;
 }
 
